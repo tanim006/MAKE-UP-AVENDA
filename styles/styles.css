@@ -1,0 +1,326 @@
+/* Inter styles from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,500;0,700;0,800;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* NAVIGATION STYLES */
+.nav-btn {
+    width: 113px;
+    height: 35px;
+    border-radius: 23px;
+    background: #D0D2CA;
+    border: 0px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    padding: 0px 80px;
+}
+
+.li {
+    justify-content: space-between;
+    margin-right: 28px;
+    list-style: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-img {
+    width: 1280px;
+    height: 674px;
+    flex-shrink: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
+}
+
+.shop {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 113px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 23.333px;
+    background: #FFF;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    text-align: center;
+    margin-top: -500px;
+}
+
+.skin {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro {
+    color: rgba(255, 255, 255, 0.51);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.last {
+    color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-part {
+    padding: 0px 80px;
+    margin-top: 400px;
+}
+
+.this {
+    color: #BBB5BB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Essentials {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -8px;
+}
+
+.second-img {
+    margin-right: 150px;
+}
+
+.second-description {
+    display: flex;
+    gap: 350px;
+}
+
+.intensive {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ml {
+    margin-bottom: 5px;
+    color: #C7906C;
+}
+
+.price {
+    margin-top: 5px;
+
+}
+
+.span {
+    color: #BBB5BB;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+
+.best {
+    color: #332562;
+}
+
+.green {
+    margin-top: 60px;
+    width: 640px;
+    height: 547px;
+    flex-shrink: 0;
+    background: #CED2C7;
+}
+
+.green-img {
+    position: absolute;
+    margin-left: 153px;
+    margin-top: 23px;
+}
+
+.brown {
+    width: 1280px;
+    height: 547px;
+    flex-shrink: 0;
+    background: #3F4135;
+}
+
+.secret {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.explore {
+    color: #BBB5BB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skin-description {
+    color: #BBB5BB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product {
+    width: 148px;
+    height: 35px;
+    border-radius: 23px;
+    background: #3F4135;
+    border-color: white;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+
+.big {
+    text-align: center;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 150px;
+}
+
+.product-des {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.green-brown {
+    position: relative;
+    margin-left: 300px;
+}
+
+.what {
+    color: #BBB5BB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.new {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.purpol {
+    padding: 0px 80px;
+    margin-top: 70px;
+
+}
+
+.hand-image {
+    width: 1280px;
+    height: 665px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 97px;
+}
+
+
+.Premier {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Premier-des {
+    color: #BB9581;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.pink {
+    align-items: center;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 700px;
+}
